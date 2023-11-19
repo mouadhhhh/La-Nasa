@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LA NASA</title>
+    <link rel="icon" type="image/png" href="picture/pic.png.png">
+</head>
+<body>
+    <h1>Hello Everyone</h1>
+    <h2>This is my new song Iced</h2>
+    <audio controls muted loop>
+        <source src="Audio/L'عilm - ICED.mp3">
+    </audio>
+    <p>And this is the official clip video</p>
+    <br>
+    <a href="https://drive.google.com/file/d/1SzcvVrOZhEleBLZijM1IOzRU6y-FRKSA/view?usp=sharing" title="official clip" target="_blank">
+        Click here
+    </a>
+
+    <p>This is a normal text</p>
+    <p>This is <b>bold</b> text</p>
+    <p>This is <i>italic</i> text</p>
+    <p>This is <sub>subscript</sub> text</p>
+    <p>This is <big> big </big> text</p>
+    <p>This is <small>small</small> text</p>
+    <p>This is <u>underlined</u>text</p>
+    <p>This is <del>deleted</del> text</p>
+    <p>This is <sup>superscript</sup> text</p>
+    <p>This is <tt>monospaced</tt> text</p>
+    <p>This is <mark style="background-color:lightgreen">normal </mark> text</p>
+    <br>
+    <h1><span style="background-color: brown;">Mouad</span></h1>
+    <h1><div style="background-color: tomato;">Raji</div></h1>
+    <br>
+    <ul> <!--unorder list-->
+        <li>raja</li>
+        <li>widad</li>
+        <li>tanja</li>
+           <ul>
+            <li>haha</li>
+            <li>hihi</li>
+            <li>hoho</li>
+           </ul>
+
+    </ul>
+    <br>
+    <ol> <!--order list-->
+        <li>sisi</li>
+        <li>soso</li>
+        <li>sasa</li>
+    </ol>
+    <br>
+    <dl style="background-color: blue;"> <!--description list-->
+        <dt>Mouad</dt>
+        <dd>Rappeur</dd>
+    </dl>
+    <br>
+    <h3 align="center">Store Hours </h3> 
+
+    <table border="1" style="background-color: black;"> <!--tables-->
+    <tr align="center" style="background-color:red" >
+        <th width="100"> Mon</th>
+        <th width="100">Tue</th>
+        <th width="100">Wed</th>
+        <th width="100">Thu</th>
+        <th width="100">Fri</th>
+        <th width="100">Sut </th>
+        <th width="100">Sun</th>
+    </tr>   
+    <tr align="center" style="background-color: yellow;">
+        <td>8-6</td>
+        <td>8-6</td>
+        <td>8-6</td>
+        <td>8-6</td>
+        <td>8-6</td>
+        <td>8-6</td>
+        <td>Closed</td>
+    </tr>                
+    </table>
+
+    <br> 
+    <!--button-->
+       <a href="https://www.google.com/" target="_blank">
+    <button style="font-size: 25px; background-color: blueviolet; color: brown;border-radius:5px;">
+        Click here
+    </a>
+    </button>
+    <br>
+    <br>
+    
+    <form action="php.index" method="post"> <!--enctype=multipart/form-data-->
+
+
+        <label for="Username">Username</label>
+        <input type="text" id="Username" placeholder="Enter your username" minlength="6" maxlength="15" required><br>
+        
+        <label for="Password">Password</label>
+        <input type="password" id="Password" placeholder="Enter your password" minlength="6" maxlength="15" required><br>
+
+        <label for="email">Email</label>
+        <input type="email" id="email" placeholder="xxx@gmail.com" required><br>
+
+        <label for="Phone">Phone</label>
+        <input type="tel" id="Phone" placeholder="123-456-7890" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required><br>
+
+        <label for="Bdate">Birthdate</label>
+        <input type="date" id="Bdate"required><br>
+
+        <label for="qua">Quantity</label>
+        <input type="number" id="qua" min="0" value="1"><br>
+
+        <label for="title">Title :</label>
+
+        <label for="Mr.">Mr</label>
+        <input type="radio" id="Mr." value="Mr" name="title">
+        <label for="Ms.">Ms</label>
+        <input type="radio" id="Ms." value="Ms" name="title"> <br>
+
+        <label for="payment">payment</label>
+        <select id="payment">
+            <option value="Visa">Visa</option>
+            <option value="Mastercard">Mastercard</option>
+        </select><br>
+
+        <label for="subscribe">Subscribe</label>
+        <input type="checkbox" id="subscribe"><br>
+
+        <label for="comm">Comment</label>
+        <textarea name="Comment" id="comm" cols="30" rows="10"></textarea><br>
+
+        <label for="file">File</label>
+        <input type="file" id="file" accept="image/png"><br>
+
+        <input type="submit"><br>
+        <input type="reset">
+    </form>
+    <br>
+
+
+
+</body>
+</html>
